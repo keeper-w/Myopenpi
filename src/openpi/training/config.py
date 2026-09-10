@@ -97,6 +97,11 @@ class DataConfig:
     # List of datasets to sample from: name, version, weight, and optionally filter_dict_path
     datasets: Sequence[droid_rlds_dataset.RLDSDataset] = ()
 
+    # Optional local dataset adapter. This is used for datasets whose on-disk format is not supported by the
+    # LeRobot revision pinned by openpi, such as LeRobot v3 CALVIN datasets.
+    local_dataset_path: str | None = None
+    local_dataset_format: Literal["calvin_v3"] | None = None
+
 
 class GroupFactory(Protocol):
     def __call__(self, model_config: _model.BaseModelConfig) -> _transforms.Group:
@@ -352,6 +357,42 @@ class LeRobotLiberoDataConfig(DataConfigFactory):
             repack_transforms=repack_transform,
             data_transforms=data_transforms,
             model_transforms=model_transforms,
+        )
+
+
+@dataclasses.dataclass(frozen=True)
+class LeRobotV3CalvinDataConfig(DataConfigFactory):
+    """Adapts the local Traly/calvin_abc_d-lerobot v3 dataset for pi0.5 training."""
+
+    local_dataset_path: str = "./data/lerobot_v3/Traly/calvin_abc_d-lerobot"
+
+    @override
+    def create(self, assets_dirs: pathlib.Path, model_config: _model.BaseModelConfig) -> DataConfig:
+        repack_transform = _transforms.Group(
+            inputs=[
+                _transforms.RepackTransform(
+                    {
+                        "observation/image": "observation.images.top",
+                        "observation/wrist_image": "observation.images.wrist",
+                        "observation/state": "observation.state",
+                        "actions": "actions",
+                        "prompt": "prompt",
+                    }
+                )
+            ]
+        )
+        data_transforms = _transforms.Group(
+            inputs=[libero_policy.LiberoInputs(model_type=model_config.model_type)],
+            outputs=[libero_policy.LiberoOutputs()],
+        )
+        return dataclasses.replace(
+            self.create_base_config(assets_dirs, model_config),
+            repack_transforms=repack_transform,
+            data_transforms=data_transforms,
+            model_transforms=ModelTransformFactory()(model_config),
+            action_sequence_keys=("actions",),
+            local_dataset_path=self.local_dataset_path,
+            local_dataset_format="calvin_v3",
         )
 
 
@@ -760,6 +801,48 @@ _CONFIGS = [
         weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
         pytorch_weight_path="/path/to/your/pytorch_weight_path",
         num_train_steps=30_000,
+    ),
+    TrainConfig(
+        name="pi05_calvin_lora",
+        model=pi0_config.Pi0Config(
+            pi05=True,
+            action_horizon=10,
+            discrete_state_input=False,
+            paligemma_variant="gemma_2b_lora",
+            action_expert_variant="gemma_300m_lora",
+        ),
+        data=LeRobotV3CalvinDataConfig(
+            repo_id="Traly/calvin_abc_d-lerobot",
+            local_dataset_path="./data/lerobot_v3/Traly/calvin_abc_d-lerobot",
+        ),
+        batch_size=8,
+        num_workers=4,
+        # Continue from the released Franka-compatible pi0.5-LIBERO checkpoint.
+        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_libero/params"),
+        freeze_filter=pi0_config.Pi0Config(
+            pi05=True,
+            action_horizon=10,
+            discrete_state_input=False,
+            paligemma_variant="gemma_2b_lora",
+            action_expert_variant="gemma_300m_lora",
+        ).get_freeze_filter(),
+        ema_decay=None,
+        num_train_steps=30_000,
+    ),
+    # Inference-only paired CALVIN evaluation config for the exact checkpoint
+    # used to initialize pi05_calvin_lora. The controlled baseline server
+    # supplies the fine-tuned checkpoint's CALVIN normalization statistics.
+    TrainConfig(
+        name="pi05_libero_calvin_eval",
+        model=pi0_config.Pi0Config(
+            pi05=True,
+            action_horizon=10,
+            discrete_state_input=False,
+        ),
+        data=LeRobotV3CalvinDataConfig(
+            repo_id="Traly/calvin_abc_d-lerobot",
+            local_dataset_path="./data/lerobot_v3/Traly/calvin_abc_d-lerobot",
+        ),
     ),
     #
     # Fine-tuning Aloha configs.

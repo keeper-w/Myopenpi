@@ -1,0 +1,17 @@
+# Lightweight CALVIN D simulator client. The OpenPI model server remains in
+# openpi_env; no Torch/JAX/model weights are installed here.
+setuptools==57.5.0
+wheel
+numpy==1.23.5
+scipy==1.10.1
+gym==0.23.1
+hydra-core==1.1.1
+hydra-colorlog==1.1.0
+omegaconf==2.1.2
+opencv-python-headless==4.8.1.78
+pybullet==3.2.7
+numpy-quaternion==2023.0.4
+GitPython==3.1.44
+rich==13.8.1
+pyhash==0.9.3
+tqdm==4.67.1

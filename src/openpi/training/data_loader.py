@@ -128,7 +128,11 @@ class FakeDataset(Dataset):
 
 
 def create_torch_dataset(
-    data_config: _config.DataConfig, action_horizon: int, model_config: _model.BaseModelConfig
+    data_config: _config.DataConfig,
+    action_horizon: int,
+    model_config: _model.BaseModelConfig,
+    *,
+    load_images: bool = True,
 ) -> Dataset:
     """Create a dataset for training."""
     repo_id = data_config.repo_id
@@ -136,6 +140,17 @@ def create_torch_dataset(
         raise ValueError("Repo ID is not set. Cannot create dataset.")
     if repo_id == "fake":
         return FakeDataset(model_config, num_samples=1024)
+
+    if data_config.local_dataset_format == "calvin_v3":
+        if data_config.local_dataset_path is None:
+            raise ValueError("local_dataset_path must be set for a CALVIN v3 dataset")
+        from openpi.training.calvin_v3_dataset import CalvinLeRobotV3Dataset
+
+        return CalvinLeRobotV3Dataset(
+            data_config.local_dataset_path,
+            action_horizon=action_horizon,
+            load_images=load_images,
+        )
 
     dataset_meta = lerobot_dataset.LeRobotDatasetMetadata(repo_id)
     dataset = lerobot_dataset.LeRobotDataset(

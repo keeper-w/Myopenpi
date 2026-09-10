@@ -18,6 +18,19 @@ This is an experiment: $\pi_0$ was developed for our own robots, which differ fr
 - [Sept 2025]: We have added an [improved idle filter](examples/droid/README_train.md#data-filtering) for DROID training.
 - [Jun 2025]: We have added [instructions](examples/droid/README_train.md) for using `openpi` to train VLAs on the full [DROID dataset](https://droid-dataset.github.io/). This is an approximate open-source implementation of the training pipeline used to train pi0-FAST-DROID. 
 
+## CALVIN π0.5 LoRA experiment
+
+This checkout also contains a reproducible CALVIN ABC→D adaptation built on
+OpenPI. The integration, training configuration, evaluation scripts, and the
+shareable 500-sequence comparison artifacts are documented in
+[examples/calvin/README_FINETUNE.md](examples/calvin/README_FINETUNE.md).
+
+The curated evaluation package is in
+[artifacts/calvin_d_500](artifacts/calvin_d_500/README.md). It contains the
+paired JSON/Markdown reports and four replay-verified MP4 success examples;
+model checkpoints, datasets, virtual environments, and local caches remain
+excluded from version control.
+
 
 ## Requirements
 

@@ -1,0 +1,6640 @@
+{
+  "average_successful_sequence_length": 0.002,
+  "chain_success_rates": {
+    "1": 0.002,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0
+  },
+  "completed_tasks_per_sequence": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evaluated_sequences": 500,
+  "full_success_indices": [],
+  "num_sequences": 500,
+  "observation_profile": "calvin",
+  "per_task": {
+    "close_drawer": {
+      "success": 0,
+      "total": 25
+    },
+    "lift_blue_block_slider": {
+      "success": 0,
+      "total": 13
+    },
+    "lift_blue_block_table": {
+      "success": 0,
+      "total": 13
+    },
+    "lift_pink_block_slider": {
+      "success": 0,
+      "total": 12
+    },
+    "lift_pink_block_table": {
+      "success": 0,
+      "total": 14
+    },
+    "lift_red_block_slider": {
+      "success": 0,
+      "total": 13
+    },
+    "lift_red_block_table": {
+      "success": 0,
+      "total": 13
+    },
+    "move_slider_left": {
+      "success": 0,
+      "total": 28
+    },
+    "move_slider_right": {
+      "success": 0,
+      "total": 43
+    },
+    "open_drawer": {
+      "success": 0,
+      "total": 58
+    },
+    "push_blue_block_left": {
+      "success": 0,
+      "total": 18
+    },
+    "push_blue_block_right": {
+      "success": 0,
+      "total": 12
+    },
+    "push_into_drawer": {
+      "success": 0,
+      "total": 8
+    },
+    "push_pink_block_left": {
+      "success": 0,
+      "total": 17
+    },
+    "push_pink_block_right": {
+      "success": 0,
+      "total": 18
+    },
+    "push_red_block_left": {
+      "success": 0,
+      "total": 21
+    },
+    "push_red_block_right": {
+      "success": 0,
+      "total": 14
+    },
+    "rotate_blue_block_left": {
+      "success": 0,
+      "total": 13
+    },
+    "rotate_blue_block_right": {
+      "success": 0,
+      "total": 13
+    },
+    "rotate_pink_block_left": {
+      "success": 0,
+      "total": 9
+    },
+    "rotate_pink_block_right": {
+      "success": 0,
+      "total": 13
+    },
+    "rotate_red_block_left": {
+      "success": 0,
+      "total": 6
+    },
+    "rotate_red_block_right": {
+      "success": 0,
+      "total": 15
+    },
+    "turn_off_led": {
+      "success": 1,
+      "total": 31
+    },
+    "turn_off_lightbulb": {
+      "success": 0,
+      "total": 13
+    },
+    "turn_on_led": {
+      "success": 0,
+      "total": 26
+    },
+    "turn_on_lightbulb": {
+      "success": 0,
+      "total": 22
+    }
+  },
+  "replan_steps": 5,
+  "seed": 0,
+  "sequence_records": [
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 0,
+      "tasks": [
+        "rotate_blue_block_left",
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 1,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "move_slider_right",
+        "turn_off_lightbulb",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 2,
+      "tasks": [
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "close_drawer",
+        "push_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 3,
+      "tasks": [
+        "push_pink_block_right",
+        "turn_off_led",
+        "move_slider_left",
+        "push_into_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 4,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "rotate_red_block_right",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 5,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "rotate_red_block_left",
+        "lift_blue_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 6,
+      "tasks": [
+        "push_blue_block_right",
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 7,
+      "tasks": [
+        "push_blue_block_left",
+        "close_drawer",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 8,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "rotate_red_block_right",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 9,
+      "tasks": [
+        "rotate_red_block_right",
+        "lift_pink_block_slider",
+        "stack_block",
+        "turn_on_led",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 10,
+      "tasks": [
+        "move_slider_right",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 11,
+      "tasks": [
+        "open_drawer",
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 12,
+      "tasks": [
+        "push_red_block_left",
+        "push_into_drawer",
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 13,
+      "tasks": [
+        "open_drawer",
+        "move_slider_left",
+        "rotate_blue_block_left",
+        "turn_on_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 14,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 15,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "rotate_blue_block_right",
+        "lift_pink_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 16,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "push_into_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 17,
+      "tasks": [
+        "turn_off_led",
+        "rotate_pink_block_left",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 18,
+      "tasks": [
+        "rotate_red_block_right",
+        "open_drawer",
+        "move_slider_left",
+        "push_into_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 19,
+      "tasks": [
+        "push_blue_block_left",
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 20,
+      "tasks": [
+        "rotate_pink_block_left",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_off_lightbulb",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 21,
+      "tasks": [
+        "turn_off_led",
+        "open_drawer",
+        "rotate_red_block_right",
+        "lift_pink_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 22,
+      "tasks": [
+        "move_slider_right",
+        "open_drawer",
+        "turn_off_lightbulb",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 23,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "push_red_block_right",
+        "move_slider_right",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 24,
+      "tasks": [
+        "close_drawer",
+        "rotate_red_block_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 25,
+      "tasks": [
+        "turn_off_led",
+        "push_red_block_left",
+        "move_slider_left",
+        "push_into_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 26,
+      "tasks": [
+        "push_blue_block_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "open_drawer",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 27,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "push_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 28,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 29,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "move_slider_right",
+        "rotate_red_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 30,
+      "tasks": [
+        "rotate_blue_block_right",
+        "turn_off_lightbulb",
+        "close_drawer",
+        "move_slider_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 31,
+      "tasks": [
+        "lift_blue_block_slider",
+        "stack_block",
+        "close_drawer",
+        "unstack_block",
+        "rotate_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 32,
+      "tasks": [
+        "push_red_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 33,
+      "tasks": [
+        "rotate_red_block_right",
+        "move_slider_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 34,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_right",
+        "turn_off_led",
+        "open_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 35,
+      "tasks": [
+        "move_slider_right",
+        "rotate_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 36,
+      "tasks": [
+        "push_blue_block_right",
+        "lift_pink_block_slider",
+        "stack_block",
+        "open_drawer",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 37,
+      "tasks": [
+        "move_slider_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 38,
+      "tasks": [
+        "push_blue_block_right",
+        "push_into_drawer",
+        "move_slider_left",
+        "close_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 39,
+      "tasks": [
+        "open_drawer",
+        "rotate_blue_block_right",
+        "move_slider_right",
+        "lift_pink_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 40,
+      "tasks": [
+        "open_drawer",
+        "turn_off_led",
+        "push_pink_block_left",
+        "move_slider_left",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 41,
+      "tasks": [
+        "close_drawer",
+        "rotate_red_block_left",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 42,
+      "tasks": [
+        "turn_on_lightbulb",
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 43,
+      "tasks": [
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block",
+        "turn_off_lightbulb",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 44,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "move_slider_right",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 45,
+      "tasks": [
+        "lift_red_block_table",
+        "stack_block",
+        "unstack_block",
+        "open_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 46,
+      "tasks": [
+        "turn_on_led",
+        "push_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 47,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_blue_block_left",
+        "close_drawer",
+        "move_slider_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 48,
+      "tasks": [
+        "push_blue_block_left",
+        "open_drawer",
+        "move_slider_left",
+        "push_into_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 49,
+      "tasks": [
+        "push_blue_block_right",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 50,
+      "tasks": [
+        "push_red_block_left",
+        "turn_off_led",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 51,
+      "tasks": [
+        "push_pink_block_right",
+        "move_slider_left",
+        "open_drawer",
+        "turn_on_led",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 52,
+      "tasks": [
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block",
+        "push_pink_block_right",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 53,
+      "tasks": [
+        "rotate_blue_block_right",
+        "turn_off_lightbulb",
+        "open_drawer",
+        "move_slider_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 54,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_on_led",
+        "move_slider_right",
+        "push_into_drawer",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 55,
+      "tasks": [
+        "move_slider_left",
+        "open_drawer",
+        "turn_on_lightbulb",
+        "rotate_red_block_right",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 56,
+      "tasks": [
+        "turn_off_led",
+        "push_blue_block_right",
+        "move_slider_left",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 57,
+      "tasks": [
+        "move_slider_left",
+        "open_drawer",
+        "turn_off_lightbulb",
+        "push_pink_block_right",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 58,
+      "tasks": [
+        "move_slider_right",
+        "rotate_pink_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 59,
+      "tasks": [
+        "close_drawer",
+        "turn_off_led",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "push_pink_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 60,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "push_pink_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 61,
+      "tasks": [
+        "rotate_pink_block_right",
+        "move_slider_right",
+        "turn_on_led",
+        "close_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 62,
+      "tasks": [
+        "turn_off_led",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "close_drawer",
+        "rotate_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 63,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_off_lightbulb",
+        "rotate_blue_block_left",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 64,
+      "tasks": [
+        "open_drawer",
+        "turn_off_led",
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 65,
+      "tasks": [
+        "turn_off_lightbulb",
+        "push_red_block_right",
+        "push_into_drawer",
+        "move_slider_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 66,
+      "tasks": [
+        "move_slider_left",
+        "push_red_block_left",
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 67,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "push_into_drawer",
+        "lift_pink_block_drawer",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 68,
+      "tasks": [
+        "close_drawer",
+        "push_pink_block_left",
+        "turn_on_led",
+        "move_slider_right",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 69,
+      "tasks": [
+        "rotate_blue_block_left",
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 70,
+      "tasks": [
+        "turn_on_led",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "move_slider_right",
+        "rotate_pink_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 71,
+      "tasks": [
+        "move_slider_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "push_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 72,
+      "tasks": [
+        "move_slider_left",
+        "push_red_block_left",
+        "push_into_drawer",
+        "turn_off_led",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 73,
+      "tasks": [
+        "push_red_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_into_drawer",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 74,
+      "tasks": [
+        "open_drawer",
+        "push_blue_block_right",
+        "move_slider_left",
+        "push_into_drawer",
+        "lift_blue_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 75,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "push_red_block_right",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 76,
+      "tasks": [
+        "turn_on_led",
+        "rotate_red_block_right",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 77,
+      "tasks": [
+        "push_blue_block_right",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_blue_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 78,
+      "tasks": [
+        "move_slider_right",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "push_blue_block_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 79,
+      "tasks": [
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block",
+        "turn_on_lightbulb",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 80,
+      "tasks": [
+        "push_red_block_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_off_led",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 81,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "turn_off_lightbulb",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 82,
+      "tasks": [
+        "turn_off_led",
+        "rotate_pink_block_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 83,
+      "tasks": [
+        "turn_on_led",
+        "lift_red_block_table",
+        "stack_block",
+        "move_slider_right",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 84,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 85,
+      "tasks": [
+        "close_drawer",
+        "push_red_block_left",
+        "lift_red_block_table",
+        "stack_block",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 86,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 87,
+      "tasks": [
+        "open_drawer",
+        "push_pink_block_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 88,
+      "tasks": [
+        "rotate_pink_block_left",
+        "close_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 89,
+      "tasks": [
+        "close_drawer",
+        "move_slider_left",
+        "rotate_pink_block_left",
+        "turn_on_led",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 90,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 91,
+      "tasks": [
+        "push_into_drawer",
+        "close_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 92,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "lift_red_block_slider",
+        "stack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 93,
+      "tasks": [
+        "rotate_pink_block_right",
+        "close_drawer",
+        "turn_off_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 94,
+      "tasks": [
+        "open_drawer",
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 95,
+      "tasks": [
+        "turn_on_lightbulb",
+        "open_drawer",
+        "move_slider_right",
+        "rotate_pink_block_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 96,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 97,
+      "tasks": [
+        "close_drawer",
+        "turn_off_lightbulb",
+        "rotate_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 98,
+      "tasks": [
+        "rotate_pink_block_right",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 99,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "turn_on_led",
+        "close_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 100,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_right",
+        "open_drawer",
+        "push_pink_block_left",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 101,
+      "tasks": [
+        "push_red_block_left",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 102,
+      "tasks": [
+        "push_into_drawer",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "turn_on_led",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 103,
+      "tasks": [
+        "turn_off_led",
+        "push_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 104,
+      "tasks": [
+        "turn_on_led",
+        "push_pink_block_left",
+        "lift_pink_block_table",
+        "stack_block",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 105,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "move_slider_left",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 106,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "move_slider_right",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 107,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "rotate_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 108,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "turn_off_led",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 109,
+      "tasks": [
+        "lift_pink_block_slider",
+        "stack_block",
+        "unstack_block",
+        "push_red_block_left",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 110,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 111,
+      "tasks": [
+        "rotate_pink_block_right",
+        "move_slider_left",
+        "lift_pink_block_table",
+        "stack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 112,
+      "tasks": [
+        "turn_on_led",
+        "rotate_pink_block_right",
+        "move_slider_right",
+        "close_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 113,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_red_block_right",
+        "move_slider_left",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 114,
+      "tasks": [
+        "push_red_block_left",
+        "lift_pink_block_slider",
+        "stack_block",
+        "turn_off_led",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 115,
+      "tasks": [
+        "turn_off_led",
+        "rotate_pink_block_left",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 116,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "open_drawer",
+        "push_blue_block_left",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 117,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_right",
+        "rotate_blue_block_right",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 118,
+      "tasks": [
+        "move_slider_left",
+        "rotate_blue_block_left",
+        "push_into_drawer",
+        "lift_pink_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 119,
+      "tasks": [
+        "rotate_red_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "close_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 120,
+      "tasks": [
+        "close_drawer",
+        "push_red_block_right",
+        "turn_off_lightbulb",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 121,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_pink_block_right",
+        "close_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 122,
+      "tasks": [
+        "turn_on_led",
+        "push_pink_block_left",
+        "push_into_drawer",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 123,
+      "tasks": [
+        "push_pink_block_right",
+        "open_drawer",
+        "move_slider_right",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 124,
+      "tasks": [
+        "move_slider_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "push_red_block_left",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 125,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_slider",
+        "stack_block",
+        "unstack_block",
+        "push_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 126,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_left",
+        "turn_on_led",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 127,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "push_blue_block_right",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 128,
+      "tasks": [
+        "turn_off_led",
+        "close_drawer",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 129,
+      "tasks": [
+        "turn_off_led",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 130,
+      "tasks": [
+        "close_drawer",
+        "push_red_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 131,
+      "tasks": [
+        "move_slider_right",
+        "open_drawer",
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 132,
+      "tasks": [
+        "rotate_red_block_right",
+        "open_drawer",
+        "turn_off_led",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 133,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 134,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "push_blue_block_left",
+        "open_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 135,
+      "tasks": [
+        "turn_off_led",
+        "push_into_drawer",
+        "lift_blue_block_drawer",
+        "place_in_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 136,
+      "tasks": [
+        "open_drawer",
+        "turn_off_led",
+        "move_slider_right",
+        "push_red_block_right",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 137,
+      "tasks": [
+        "turn_off_led",
+        "open_drawer",
+        "push_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 138,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "rotate_blue_block_right",
+        "open_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 139,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "rotate_red_block_left",
+        "move_slider_left",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 140,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "move_slider_left",
+        "rotate_red_block_right",
+        "lift_blue_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 141,
+      "tasks": [
+        "push_red_block_right",
+        "turn_on_lightbulb",
+        "push_into_drawer",
+        "move_slider_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 142,
+      "tasks": [
+        "rotate_red_block_left",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_right",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 143,
+      "tasks": [
+        "rotate_pink_block_left",
+        "open_drawer",
+        "move_slider_left",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 144,
+      "tasks": [
+        "push_blue_block_right",
+        "move_slider_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 145,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "open_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 146,
+      "tasks": [
+        "open_drawer",
+        "move_slider_left",
+        "rotate_blue_block_left",
+        "push_into_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 147,
+      "tasks": [
+        "close_drawer",
+        "rotate_pink_block_left",
+        "turn_off_led",
+        "move_slider_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 148,
+      "tasks": [
+        "open_drawer",
+        "rotate_blue_block_right",
+        "move_slider_right",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 149,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 150,
+      "tasks": [
+        "push_into_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 151,
+      "tasks": [
+        "push_red_block_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 152,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 153,
+      "tasks": [
+        "move_slider_right",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "close_drawer",
+        "rotate_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 154,
+      "tasks": [
+        "turn_on_led",
+        "lift_red_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 155,
+      "tasks": [
+        "move_slider_left",
+        "open_drawer",
+        "rotate_blue_block_right",
+        "turn_on_led",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 156,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 157,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "move_slider_left",
+        "rotate_pink_block_right",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 158,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "push_blue_block_left",
+        "turn_off_led",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 159,
+      "tasks": [
+        "push_red_block_right",
+        "turn_on_lightbulb",
+        "lift_red_block_table",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 160,
+      "tasks": [
+        "close_drawer",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_off_lightbulb",
+        "rotate_pink_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 161,
+      "tasks": [
+        "push_red_block_right",
+        "move_slider_right",
+        "lift_pink_block_slider",
+        "stack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 162,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "stack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 163,
+      "tasks": [
+        "rotate_red_block_right",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "turn_off_led",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 164,
+      "tasks": [
+        "rotate_red_block_left",
+        "move_slider_right",
+        "turn_on_led",
+        "open_drawer",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 165,
+      "tasks": [
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 166,
+      "tasks": [
+        "turn_off_led",
+        "push_blue_block_left",
+        "push_into_drawer",
+        "move_slider_right",
+        "lift_blue_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 167,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "move_slider_left",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 168,
+      "tasks": [
+        "move_slider_right",
+        "push_into_drawer",
+        "turn_off_led",
+        "lift_pink_block_drawer",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 169,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "rotate_blue_block_right",
+        "lift_blue_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 170,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 171,
+      "tasks": [
+        "open_drawer",
+        "push_red_block_right",
+        "move_slider_left",
+        "lift_pink_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 172,
+      "tasks": [
+        "turn_off_lightbulb",
+        "push_blue_block_left",
+        "move_slider_right",
+        "close_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 173,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_off_led",
+        "open_drawer",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 174,
+      "tasks": [
+        "turn_off_led",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "rotate_blue_block_right",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 175,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_on_led",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 176,
+      "tasks": [
+        "open_drawer",
+        "push_blue_block_left",
+        "move_slider_left",
+        "push_into_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 177,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_left",
+        "rotate_red_block_right",
+        "lift_pink_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 178,
+      "tasks": [
+        "move_slider_left",
+        "rotate_blue_block_left",
+        "turn_on_lightbulb",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 179,
+      "tasks": [
+        "move_slider_right",
+        "turn_off_lightbulb",
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 180,
+      "tasks": [
+        "push_pink_block_left",
+        "close_drawer",
+        "move_slider_left",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 181,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "push_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 182,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "move_slider_right",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 183,
+      "tasks": [
+        "move_slider_right",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 184,
+      "tasks": [
+        "rotate_pink_block_right",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 185,
+      "tasks": [
+        "turn_off_led",
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block",
+        "push_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 186,
+      "tasks": [
+        "rotate_pink_block_left",
+        "turn_off_led",
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 187,
+      "tasks": [
+        "rotate_red_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "push_into_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 188,
+      "tasks": [
+        "rotate_blue_block_right",
+        "move_slider_left",
+        "turn_off_led",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 189,
+      "tasks": [
+        "rotate_red_block_right",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_pink_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 190,
+      "tasks": [
+        "push_pink_block_right",
+        "move_slider_left",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 191,
+      "tasks": [
+        "lift_red_block_slider",
+        "stack_block",
+        "close_drawer",
+        "turn_off_led",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 192,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "rotate_blue_block_left",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 193,
+      "tasks": [
+        "push_red_block_right",
+        "turn_off_led",
+        "lift_red_block_table",
+        "place_in_slider",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 194,
+      "tasks": [
+        "rotate_red_block_right",
+        "turn_off_led",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 195,
+      "tasks": [
+        "move_slider_left",
+        "rotate_blue_block_left",
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 196,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_slider",
+        "move_slider_right",
+        "push_into_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 197,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "rotate_blue_block_left",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 198,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 199,
+      "tasks": [
+        "lift_blue_block_table",
+        "stack_block",
+        "close_drawer",
+        "unstack_block",
+        "rotate_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 200,
+      "tasks": [
+        "rotate_red_block_left",
+        "turn_on_led",
+        "open_drawer",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 201,
+      "tasks": [
+        "push_red_block_left",
+        "turn_on_led",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 202,
+      "tasks": [
+        "move_slider_left",
+        "push_pink_block_left",
+        "lift_pink_block_table",
+        "stack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 203,
+      "tasks": [
+        "move_slider_right",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "rotate_blue_block_left",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 204,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 205,
+      "tasks": [
+        "turn_off_lightbulb",
+        "rotate_red_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 206,
+      "tasks": [
+        "move_slider_right",
+        "push_red_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 207,
+      "tasks": [
+        "push_blue_block_left",
+        "turn_off_lightbulb",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 208,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "move_slider_left",
+        "turn_on_led",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 209,
+      "tasks": [
+        "move_slider_left",
+        "open_drawer",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 210,
+      "tasks": [
+        "move_slider_right",
+        "rotate_red_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 211,
+      "tasks": [
+        "move_slider_right",
+        "push_into_drawer",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "lift_blue_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 212,
+      "tasks": [
+        "push_blue_block_left",
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "open_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 213,
+      "tasks": [
+        "turn_off_led",
+        "rotate_red_block_left",
+        "move_slider_left",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 214,
+      "tasks": [
+        "move_slider_left",
+        "rotate_blue_block_right",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 215,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_slider",
+        "rotate_pink_block_left",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 216,
+      "tasks": [
+        "push_red_block_right",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 217,
+      "tasks": [
+        "push_blue_block_right",
+        "open_drawer",
+        "lift_blue_block_table",
+        "stack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 218,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "move_slider_right",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 219,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "close_drawer",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 220,
+      "tasks": [
+        "open_drawer",
+        "push_blue_block_left",
+        "move_slider_left",
+        "turn_on_lightbulb",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 221,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "rotate_red_block_left",
+        "turn_on_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 222,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_right",
+        "push_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 223,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "rotate_blue_block_right",
+        "open_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 224,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "open_drawer",
+        "turn_off_lightbulb",
+        "rotate_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 225,
+      "tasks": [
+        "turn_on_lightbulb",
+        "lift_pink_block_slider",
+        "stack_block",
+        "open_drawer",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 226,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "push_blue_block_right",
+        "move_slider_left",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 227,
+      "tasks": [
+        "open_drawer",
+        "move_slider_right",
+        "turn_on_led",
+        "rotate_blue_block_right",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 228,
+      "tasks": [
+        "move_slider_right",
+        "close_drawer",
+        "push_pink_block_left",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 229,
+      "tasks": [
+        "open_drawer",
+        "push_pink_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 230,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "move_slider_left",
+        "lift_pink_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 231,
+      "tasks": [
+        "rotate_red_block_left",
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 232,
+      "tasks": [
+        "push_red_block_right",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_off_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 233,
+      "tasks": [
+        "push_blue_block_right",
+        "close_drawer",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 234,
+      "tasks": [
+        "rotate_pink_block_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 235,
+      "tasks": [
+        "turn_off_led",
+        "push_red_block_right",
+        "push_into_drawer",
+        "move_slider_left",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 236,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "push_blue_block_right",
+        "close_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 237,
+      "tasks": [
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 238,
+      "tasks": [
+        "turn_off_lightbulb",
+        "rotate_red_block_left",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 239,
+      "tasks": [
+        "move_slider_left",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "turn_off_led",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 240,
+      "tasks": [
+        "rotate_blue_block_left",
+        "move_slider_left",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 241,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 242,
+      "tasks": [
+        "rotate_blue_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "move_slider_right",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 243,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_right",
+        "push_blue_block_left",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 244,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_left",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 245,
+      "tasks": [
+        "move_slider_right",
+        "push_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 246,
+      "tasks": [
+        "move_slider_left",
+        "push_pink_block_left",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 247,
+      "tasks": [
+        "move_slider_right",
+        "rotate_red_block_right",
+        "turn_on_led",
+        "open_drawer",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 248,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_on_lightbulb",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 249,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "move_slider_left",
+        "push_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 250,
+      "tasks": [
+        "close_drawer",
+        "turn_off_led",
+        "move_slider_right",
+        "rotate_blue_block_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 251,
+      "tasks": [
+        "rotate_pink_block_right",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 252,
+      "tasks": [
+        "rotate_pink_block_left",
+        "open_drawer",
+        "move_slider_left",
+        "push_into_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 253,
+      "tasks": [
+        "close_drawer",
+        "move_slider_left",
+        "push_red_block_left",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 254,
+      "tasks": [
+        "push_pink_block_left",
+        "lift_red_block_slider",
+        "stack_block",
+        "turn_on_led",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 255,
+      "tasks": [
+        "push_pink_block_right",
+        "turn_on_led",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 256,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "rotate_pink_block_right",
+        "close_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 257,
+      "tasks": [
+        "turn_on_led",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "rotate_pink_block_right",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 258,
+      "tasks": [
+        "rotate_red_block_left",
+        "close_drawer",
+        "turn_on_led",
+        "lift_pink_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 259,
+      "tasks": [
+        "open_drawer",
+        "rotate_blue_block_right",
+        "turn_off_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 260,
+      "tasks": [
+        "rotate_blue_block_left",
+        "turn_on_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 261,
+      "tasks": [
+        "open_drawer",
+        "push_pink_block_right",
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 262,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_left",
+        "open_drawer",
+        "lift_pink_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 263,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "rotate_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 264,
+      "tasks": [
+        "move_slider_right",
+        "rotate_pink_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 265,
+      "tasks": [
+        "push_blue_block_left",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_blue_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 266,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "close_drawer",
+        "push_blue_block_left",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 267,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "rotate_blue_block_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 268,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "push_pink_block_right",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 269,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "rotate_pink_block_left",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 270,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_right",
+        "rotate_red_block_right",
+        "close_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 271,
+      "tasks": [
+        "lift_red_block_table",
+        "stack_block",
+        "open_drawer",
+        "unstack_block",
+        "push_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 272,
+      "tasks": [
+        "move_slider_left",
+        "turn_off_led",
+        "close_drawer",
+        "push_red_block_right",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 273,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "push_blue_block_left",
+        "push_into_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 274,
+      "tasks": [
+        "push_blue_block_left",
+        "push_into_drawer",
+        "lift_blue_block_drawer",
+        "place_in_slider",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 275,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_left",
+        "push_blue_block_left",
+        "lift_pink_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 276,
+      "tasks": [
+        "turn_on_led",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 277,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "push_blue_block_right",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 278,
+      "tasks": [
+        "move_slider_left",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "rotate_blue_block_left",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 279,
+      "tasks": [
+        "lift_pink_block_table",
+        "stack_block",
+        "close_drawer",
+        "turn_on_lightbulb",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 280,
+      "tasks": [
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 281,
+      "tasks": [
+        "rotate_red_block_right",
+        "close_drawer",
+        "lift_red_block_table",
+        "stack_block",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 282,
+      "tasks": [
+        "rotate_red_block_right",
+        "push_into_drawer",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 283,
+      "tasks": [
+        "push_pink_block_left",
+        "move_slider_left",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 284,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_on_led",
+        "push_into_drawer",
+        "move_slider_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 285,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "move_slider_right",
+        "push_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 286,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "push_red_block_right",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 287,
+      "tasks": [
+        "push_blue_block_left",
+        "turn_on_led",
+        "move_slider_left",
+        "close_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 288,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_led",
+        "open_drawer",
+        "rotate_pink_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 289,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "lift_red_block_table",
+        "stack_block",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 290,
+      "tasks": [
+        "push_pink_block_left",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 291,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "turn_on_led",
+        "move_slider_right",
+        "lift_red_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 292,
+      "tasks": [
+        "close_drawer",
+        "rotate_red_block_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 293,
+      "tasks": [
+        "rotate_blue_block_left",
+        "move_slider_left",
+        "open_drawer",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 294,
+      "tasks": [
+        "turn_off_lightbulb",
+        "move_slider_left",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 295,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "move_slider_right",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 296,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_blue_block_right",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 297,
+      "tasks": [
+        "rotate_blue_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "move_slider_right",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 298,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 299,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "open_drawer",
+        "turn_on_led",
+        "rotate_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 300,
+      "tasks": [
+        "turn_off_led",
+        "lift_blue_block_slider",
+        "stack_block",
+        "unstack_block",
+        "push_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 301,
+      "tasks": [
+        "rotate_pink_block_right",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "move_slider_left",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 302,
+      "tasks": [
+        "open_drawer",
+        "push_red_block_left",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 303,
+      "tasks": [
+        "lift_blue_block_slider",
+        "stack_block",
+        "unstack_block",
+        "turn_on_led",
+        "push_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 304,
+      "tasks": [
+        "move_slider_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_pink_block_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 305,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "push_into_drawer",
+        "turn_off_lightbulb",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 306,
+      "tasks": [
+        "turn_off_lightbulb",
+        "open_drawer",
+        "push_red_block_left",
+        "move_slider_right",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 307,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 308,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "move_slider_right",
+        "lift_pink_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 309,
+      "tasks": [
+        "rotate_blue_block_left",
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 310,
+      "tasks": [
+        "move_slider_right",
+        "lift_red_block_slider",
+        "stack_block",
+        "open_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 311,
+      "tasks": [
+        "rotate_red_block_right",
+        "turn_on_lightbulb",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 312,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_left",
+        "open_drawer",
+        "push_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 313,
+      "tasks": [
+        "open_drawer",
+        "turn_on_led",
+        "push_red_block_right",
+        "lift_pink_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 314,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "push_red_block_left",
+        "move_slider_left",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 315,
+      "tasks": [
+        "push_into_drawer",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_off_led",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 316,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "push_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 317,
+      "tasks": [
+        "move_slider_left",
+        "push_blue_block_right",
+        "push_into_drawer",
+        "close_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 318,
+      "tasks": [
+        "push_into_drawer",
+        "lift_blue_block_drawer",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 319,
+      "tasks": [
+        "push_blue_block_right",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 320,
+      "tasks": [
+        "close_drawer",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 321,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "open_drawer",
+        "rotate_blue_block_right",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 322,
+      "tasks": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_on_lightbulb",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 323,
+      "tasks": [
+        "move_slider_right",
+        "rotate_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 324,
+      "tasks": [
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "push_into_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 325,
+      "tasks": [
+        "rotate_blue_block_left",
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "open_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 326,
+      "tasks": [
+        "push_red_block_right",
+        "close_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 327,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_left",
+        "open_drawer",
+        "push_blue_block_right",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 328,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "move_slider_left",
+        "push_red_block_right",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 329,
+      "tasks": [
+        "turn_on_lightbulb",
+        "rotate_red_block_right",
+        "lift_pink_block_table",
+        "stack_block",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 330,
+      "tasks": [
+        "close_drawer",
+        "push_red_block_right",
+        "lift_pink_block_slider",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 331,
+      "tasks": [
+        "push_red_block_right",
+        "lift_blue_block_slider",
+        "stack_block",
+        "open_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 332,
+      "tasks": [
+        "open_drawer",
+        "rotate_red_block_left",
+        "move_slider_left",
+        "turn_off_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 333,
+      "tasks": [
+        "push_blue_block_right",
+        "open_drawer",
+        "turn_on_led",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 334,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_lightbulb",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 335,
+      "tasks": [
+        "push_red_block_left",
+        "turn_on_led",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 336,
+      "tasks": [
+        "rotate_pink_block_left",
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 337,
+      "tasks": [
+        "push_pink_block_left",
+        "move_slider_right",
+        "push_into_drawer",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 338,
+      "tasks": [
+        "rotate_blue_block_right",
+        "move_slider_right",
+        "lift_red_block_table",
+        "stack_block",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 339,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_left",
+        "turn_off_lightbulb",
+        "push_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 340,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_off_lightbulb",
+        "move_slider_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 341,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "turn_off_led",
+        "rotate_red_block_left",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 342,
+      "tasks": [
+        "push_blue_block_left",
+        "close_drawer",
+        "turn_off_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 343,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "push_red_block_left",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 344,
+      "tasks": [
+        "push_red_block_right",
+        "turn_off_lightbulb",
+        "lift_pink_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 345,
+      "tasks": [
+        "close_drawer",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block",
+        "rotate_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 346,
+      "tasks": [
+        "rotate_pink_block_right",
+        "turn_off_lightbulb",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 347,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_table",
+        "stack_block",
+        "unstack_block",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 348,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_blue_block_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 349,
+      "tasks": [
+        "move_slider_right",
+        "rotate_red_block_right",
+        "turn_off_lightbulb",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 350,
+      "tasks": [
+        "rotate_red_block_right",
+        "move_slider_left",
+        "lift_blue_block_slider",
+        "stack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 351,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_right",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 352,
+      "tasks": [
+        "open_drawer",
+        "push_red_block_left",
+        "lift_pink_block_table",
+        "stack_block",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 353,
+      "tasks": [
+        "turn_on_led",
+        "push_red_block_left",
+        "lift_red_block_table",
+        "stack_block",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 354,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "move_slider_left",
+        "turn_on_led",
+        "rotate_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 355,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_off_lightbulb",
+        "move_slider_right",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 356,
+      "tasks": [
+        "move_slider_left",
+        "close_drawer",
+        "turn_on_lightbulb",
+        "rotate_blue_block_right",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 357,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "turn_on_led",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 358,
+      "tasks": [
+        "move_slider_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "close_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 359,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_slider",
+        "lift_blue_block_slider",
+        "stack_block",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 360,
+      "tasks": [
+        "push_blue_block_left",
+        "lift_blue_block_table",
+        "stack_block",
+        "turn_off_lightbulb",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 361,
+      "tasks": [
+        "turn_on_lightbulb",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "rotate_pink_block_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 362,
+      "tasks": [
+        "rotate_red_block_right",
+        "turn_off_led",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 363,
+      "tasks": [
+        "turn_off_led",
+        "open_drawer",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 364,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 365,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_on_led",
+        "lift_red_block_table",
+        "stack_block",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 366,
+      "tasks": [
+        "rotate_pink_block_left",
+        "close_drawer",
+        "turn_on_led",
+        "move_slider_left",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 367,
+      "tasks": [
+        "turn_off_led",
+        "push_blue_block_left",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 368,
+      "tasks": [
+        "turn_on_lightbulb",
+        "close_drawer",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "rotate_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 369,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_red_block_table",
+        "stack_block",
+        "move_slider_left",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 370,
+      "tasks": [
+        "lift_pink_block_slider",
+        "stack_block",
+        "unstack_block",
+        "open_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 371,
+      "tasks": [
+        "push_pink_block_left",
+        "turn_on_lightbulb",
+        "lift_pink_block_table",
+        "stack_block",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 372,
+      "tasks": [
+        "push_pink_block_left",
+        "lift_pink_block_table",
+        "stack_block",
+        "turn_off_lightbulb",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 373,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "rotate_red_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 374,
+      "tasks": [
+        "push_into_drawer",
+        "lift_blue_block_drawer",
+        "place_in_slider",
+        "close_drawer",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 375,
+      "tasks": [
+        "open_drawer",
+        "rotate_blue_block_right",
+        "turn_on_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 376,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_red_block_slider",
+        "stack_block",
+        "unstack_block",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 377,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "push_into_drawer",
+        "move_slider_right",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 378,
+      "tasks": [
+        "push_pink_block_left",
+        "close_drawer",
+        "turn_off_led",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 379,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_red_block_left",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 380,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "close_drawer",
+        "rotate_red_block_left",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 381,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "push_pink_block_left",
+        "move_slider_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 382,
+      "tasks": [
+        "rotate_pink_block_right",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 383,
+      "tasks": [
+        "push_red_block_right",
+        "move_slider_right",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 384,
+      "tasks": [
+        "lift_red_block_slider",
+        "stack_block",
+        "unstack_block",
+        "push_blue_block_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 385,
+      "tasks": [
+        "move_slider_right",
+        "open_drawer",
+        "push_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 386,
+      "tasks": [
+        "move_slider_right",
+        "open_drawer",
+        "rotate_blue_block_left",
+        "turn_on_led",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 387,
+      "tasks": [
+        "push_into_drawer",
+        "turn_off_lightbulb",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 388,
+      "tasks": [
+        "push_pink_block_right",
+        "move_slider_left",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 389,
+      "tasks": [
+        "turn_on_lightbulb",
+        "close_drawer",
+        "rotate_pink_block_right",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 390,
+      "tasks": [
+        "push_red_block_right",
+        "move_slider_left",
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 391,
+      "tasks": [
+        "turn_on_led",
+        "rotate_pink_block_right",
+        "close_drawer",
+        "lift_pink_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 392,
+      "tasks": [
+        "rotate_red_block_left",
+        "turn_on_lightbulb",
+        "push_into_drawer",
+        "move_slider_left",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 393,
+      "tasks": [
+        "turn_off_led",
+        "rotate_pink_block_right",
+        "open_drawer",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 394,
+      "tasks": [
+        "push_pink_block_left",
+        "close_drawer",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 395,
+      "tasks": [
+        "push_pink_block_right",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 396,
+      "tasks": [
+        "move_slider_right",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 397,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "rotate_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 398,
+      "tasks": [
+        "push_pink_block_left",
+        "push_into_drawer",
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 399,
+      "tasks": [
+        "close_drawer",
+        "push_red_block_left",
+        "lift_pink_block_slider",
+        "stack_block",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 400,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "move_slider_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 401,
+      "tasks": [
+        "move_slider_right",
+        "push_red_block_right",
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 402,
+      "tasks": [
+        "turn_on_led",
+        "push_blue_block_right",
+        "move_slider_right",
+        "close_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 403,
+      "tasks": [
+        "rotate_red_block_right",
+        "open_drawer",
+        "move_slider_right",
+        "lift_blue_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 404,
+      "tasks": [
+        "rotate_pink_block_left",
+        "turn_off_led",
+        "push_into_drawer",
+        "close_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 405,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "lift_blue_block_drawer",
+        "stack_block",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 406,
+      "tasks": [
+        "lift_red_block_table",
+        "stack_block",
+        "unstack_block",
+        "rotate_red_block_right",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 407,
+      "tasks": [
+        "rotate_blue_block_right",
+        "push_into_drawer",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 408,
+      "tasks": [
+        "push_red_block_left",
+        "turn_on_led",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 409,
+      "tasks": [
+        "rotate_pink_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 410,
+      "tasks": [
+        "turn_off_led",
+        "push_red_block_right",
+        "move_slider_right",
+        "close_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 411,
+      "tasks": [
+        "push_red_block_right",
+        "close_drawer",
+        "turn_off_lightbulb",
+        "move_slider_left",
+        "lift_blue_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 412,
+      "tasks": [
+        "push_red_block_left",
+        "turn_off_led",
+        "move_slider_right",
+        "lift_red_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 413,
+      "tasks": [
+        "open_drawer",
+        "turn_off_lightbulb",
+        "push_blue_block_right",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 414,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "push_into_drawer",
+        "close_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 415,
+      "tasks": [
+        "move_slider_right",
+        "rotate_pink_block_left",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 416,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 417,
+      "tasks": [
+        "close_drawer",
+        "move_slider_right",
+        "turn_on_led",
+        "rotate_red_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 418,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 419,
+      "tasks": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "rotate_blue_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 420,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_left",
+        "open_drawer",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 421,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "push_into_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 422,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_pink_block_right",
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 423,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "rotate_blue_block_right",
+        "close_drawer",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 424,
+      "tasks": [
+        "open_drawer",
+        "move_slider_right",
+        "lift_red_block_slider",
+        "place_in_drawer",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 425,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "push_pink_block_right",
+        "close_drawer",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 426,
+      "tasks": [
+        "push_pink_block_left",
+        "move_slider_left",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 427,
+      "tasks": [
+        "turn_on_lightbulb",
+        "move_slider_right",
+        "open_drawer",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 428,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "turn_on_lightbulb",
+        "rotate_red_block_right",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 429,
+      "tasks": [
+        "rotate_blue_block_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_off_led",
+        "open_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 430,
+      "tasks": [
+        "lift_red_block_slider",
+        "stack_block",
+        "close_drawer",
+        "unstack_block",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 431,
+      "tasks": [
+        "push_pink_block_right",
+        "move_slider_left",
+        "turn_off_led",
+        "push_into_drawer",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 432,
+      "tasks": [
+        "rotate_blue_block_right",
+        "lift_red_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 433,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "close_drawer",
+        "push_red_block_right",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 434,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_on_lightbulb",
+        "close_drawer",
+        "push_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 435,
+      "tasks": [
+        "rotate_pink_block_right",
+        "turn_off_led",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 436,
+      "tasks": [
+        "turn_off_led",
+        "rotate_red_block_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 437,
+      "tasks": [
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 438,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "move_slider_left",
+        "lift_blue_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 439,
+      "tasks": [
+        "move_slider_left",
+        "push_pink_block_left",
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 440,
+      "tasks": [
+        "push_blue_block_left",
+        "lift_red_block_table",
+        "stack_block",
+        "turn_off_lightbulb",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 441,
+      "tasks": [
+        "turn_on_lightbulb",
+        "push_blue_block_right",
+        "move_slider_right",
+        "open_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 442,
+      "tasks": [
+        "turn_on_led",
+        "move_slider_left",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 443,
+      "tasks": [
+        "move_slider_left",
+        "rotate_red_block_right",
+        "turn_on_led",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 444,
+      "tasks": [
+        "rotate_blue_block_right",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 445,
+      "tasks": [
+        "rotate_blue_block_right",
+        "move_slider_left",
+        "turn_off_lightbulb",
+        "lift_red_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 446,
+      "tasks": [
+        "rotate_blue_block_left",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 447,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "rotate_blue_block_left",
+        "lift_red_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 448,
+      "tasks": [
+        "lift_blue_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "rotate_pink_block_right",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 449,
+      "tasks": [
+        "close_drawer",
+        "lift_red_block_table",
+        "stack_block",
+        "unstack_block",
+        "rotate_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 450,
+      "tasks": [
+        "turn_off_lightbulb",
+        "rotate_pink_block_right",
+        "move_slider_right",
+        "open_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 451,
+      "tasks": [
+        "push_into_drawer",
+        "move_slider_left",
+        "lift_blue_block_drawer",
+        "place_in_slider",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 452,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "push_red_block_left",
+        "lift_red_block_table",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 453,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "push_blue_block_left",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 454,
+      "tasks": [
+        "push_blue_block_right",
+        "turn_off_led",
+        "move_slider_right",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 455,
+      "tasks": [
+        "lift_pink_block_table",
+        "stack_block",
+        "move_slider_right",
+        "open_drawer",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 456,
+      "tasks": [
+        "push_red_block_left",
+        "lift_blue_block_table",
+        "stack_block",
+        "unstack_block",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 457,
+      "tasks": [
+        "move_slider_right",
+        "rotate_pink_block_right",
+        "lift_red_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 458,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_right",
+        "rotate_blue_block_right",
+        "open_drawer",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 459,
+      "tasks": [
+        "move_slider_left",
+        "turn_on_led",
+        "open_drawer",
+        "rotate_pink_block_left",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 460,
+      "tasks": [
+        "turn_on_led",
+        "open_drawer",
+        "push_pink_block_left",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 461,
+      "tasks": [
+        "close_drawer",
+        "lift_red_block_table",
+        "stack_block",
+        "unstack_block",
+        "rotate_red_block_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 462,
+      "tasks": [
+        "push_blue_block_right",
+        "lift_red_block_slider",
+        "stack_block",
+        "unstack_block",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 463,
+      "tasks": [
+        "lift_red_block_table",
+        "stack_block",
+        "close_drawer",
+        "turn_off_lightbulb",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 464,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "turn_on_lightbulb",
+        "rotate_red_block_left",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 465,
+      "tasks": [
+        "move_slider_left",
+        "push_red_block_right",
+        "push_into_drawer",
+        "turn_on_led",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 466,
+      "tasks": [
+        "push_blue_block_left",
+        "move_slider_right",
+        "open_drawer",
+        "turn_on_led",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 467,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_off_led",
+        "move_slider_right",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 468,
+      "tasks": [
+        "close_drawer",
+        "move_slider_right",
+        "turn_on_led",
+        "push_pink_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 469,
+      "tasks": [
+        "turn_off_lightbulb",
+        "rotate_blue_block_left",
+        "move_slider_left",
+        "open_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 470,
+      "tasks": [
+        "move_slider_right",
+        "turn_off_lightbulb",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 471,
+      "tasks": [
+        "push_red_block_left",
+        "turn_on_lightbulb",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 472,
+      "tasks": [
+        "push_red_block_left",
+        "turn_off_led",
+        "push_into_drawer",
+        "lift_red_block_drawer",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 473,
+      "tasks": [
+        "lift_blue_block_slider",
+        "stack_block",
+        "unstack_block",
+        "move_slider_left",
+        "lift_blue_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 474,
+      "tasks": [
+        "rotate_blue_block_left",
+        "move_slider_left",
+        "lift_blue_block_table",
+        "place_in_slider",
+        "lift_red_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 475,
+      "tasks": [
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "close_drawer",
+        "push_pink_block_right",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 476,
+      "tasks": [
+        "push_red_block_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "move_slider_right",
+        "turn_off_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 477,
+      "tasks": [
+        "lift_red_block_slider",
+        "stack_block",
+        "unstack_block",
+        "push_blue_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 478,
+      "tasks": [
+        "move_slider_right",
+        "push_red_block_left",
+        "turn_off_lightbulb",
+        "lift_blue_block_slider",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 479,
+      "tasks": [
+        "move_slider_left",
+        "push_blue_block_right",
+        "turn_on_lightbulb",
+        "lift_blue_block_table",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 480,
+      "tasks": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "rotate_pink_block_right",
+        "turn_off_lightbulb",
+        "close_drawer"
+      ]
+    },
+    {
+      "completed": 1,
+      "full_success": false,
+      "index": 481,
+      "tasks": [
+        "turn_off_led",
+        "move_slider_left",
+        "open_drawer",
+        "push_pink_block_left",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 482,
+      "tasks": [
+        "move_slider_right",
+        "push_pink_block_left",
+        "lift_blue_block_slider",
+        "place_in_drawer",
+        "turn_off_led"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 483,
+      "tasks": [
+        "push_red_block_left",
+        "move_slider_right",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "turn_on_lightbulb"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 484,
+      "tasks": [
+        "rotate_blue_block_left",
+        "open_drawer",
+        "push_into_drawer",
+        "lift_blue_block_drawer",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 485,
+      "tasks": [
+        "close_drawer",
+        "lift_pink_block_table",
+        "place_in_slider",
+        "turn_on_led",
+        "move_slider_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 486,
+      "tasks": [
+        "move_slider_right",
+        "turn_on_led",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "push_red_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 487,
+      "tasks": [
+        "open_drawer",
+        "rotate_red_block_left",
+        "lift_red_block_table",
+        "place_in_slider",
+        "lift_pink_block_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 488,
+      "tasks": [
+        "push_pink_block_right",
+        "open_drawer",
+        "push_into_drawer",
+        "move_slider_right",
+        "lift_pink_block_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 489,
+      "tasks": [
+        "push_pink_block_right",
+        "close_drawer",
+        "lift_red_block_slider",
+        "stack_block",
+        "move_slider_right"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 490,
+      "tasks": [
+        "close_drawer",
+        "turn_off_lightbulb",
+        "rotate_blue_block_left",
+        "lift_red_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 491,
+      "tasks": [
+        "push_red_block_left",
+        "open_drawer",
+        "lift_pink_block_slider",
+        "place_in_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 492,
+      "tasks": [
+        "open_drawer",
+        "turn_on_lightbulb",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "rotate_blue_block_left"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 493,
+      "tasks": [
+        "close_drawer",
+        "move_slider_left",
+        "turn_off_lightbulb",
+        "rotate_red_block_left",
+        "lift_red_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 494,
+      "tasks": [
+        "push_pink_block_right",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "stack_block",
+        "unstack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 495,
+      "tasks": [
+        "move_slider_left",
+        "open_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider",
+        "lift_pink_block_table"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 496,
+      "tasks": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "turn_off_lightbulb",
+        "lift_blue_block_slider",
+        "stack_block"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 497,
+      "tasks": [
+        "turn_on_led",
+        "push_into_drawer",
+        "close_drawer",
+        "lift_blue_block_slider",
+        "place_in_slider"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 498,
+      "tasks": [
+        "lift_pink_block_slider",
+        "place_in_slider",
+        "rotate_red_block_right",
+        "turn_on_led",
+        "push_into_drawer"
+      ]
+    },
+    {
+      "completed": 0,
+      "full_success": false,
+      "index": 499,
+      "tasks": [
+        "lift_red_block_slider",
+        "place_in_slider",
+        "open_drawer",
+        "turn_on_led",
+        "push_blue_block_right"
+      ]
+    }
+  ],
+  "status": "complete",
+  "success_indices_by_depth": {
+    "1": [
+      481
+    ],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  }
+}

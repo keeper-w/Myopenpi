@@ -2,7 +2,20 @@
 assets/
 checkpoints/
 data/
+.openpi_cache/
 wandb/
+
+# Local evaluation outputs. Curated, shareable reports and videos live under
+# artifacts/ and are intentionally tracked separately.
+outputs/
+
+# Local CALVIN simulator environment and generated caches.
+examples/calvin/.venv/
+third_party/calvin/**/__pycache__/
+third_party/calvin/**/*.egg-info/
+
+# Local exploratory scripts, not part of the reproducible CALVIN integration.
+mytest/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
