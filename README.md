@@ -68,6 +68,3 @@ bash examples/calvin/run_calvin_record_successes.sh \
 - CALVIN 动作/状态归一化统计
 - CALVIN D 场景闭环评测、任务 oracle 判定和 MP4 回放
 - 微调权重与原始 `pi05_libero` 的配对成功率比较
-
-模型权重、CALVIN 数据集、虚拟环境和缓存没有提交到 GitHub；它们应通过项目
-说明中的路径单独准备。
