@@ -24,21 +24,27 @@ environments, or simulator source code.
 | Success >= 4 tasks | 23.6% | 0.0% | +23.6 pp |
 | Success = 5 tasks | 16.8% (84/500) | 0.0% (0/500) | +16.8 pp |
 
-The MP4 files below are replay-verified full successes from the fine-tuned
-policy. They are a curated subset of the 84 full successes in the 500-sequence
-evaluation, not an exhaustive export.
+The MP4 files below are replay-verified full successes from an earlier
+100-sequence fine-tuned-policy run. They are included as visual demonstrations;
+they are not claimed to be the same successful indices as the 500-sequence
+aggregate report. The 500-sequence aggregate result remains 84/500 full
+successes, as recorded in the JSON report.
 
-## Videos
+## Paired videos from the 100-sequence showcase run
 
-| Sequence index | Tasks | Video |
-|---:|---|---|
-| 0 | lift blue block from slider → place in slider → turn on lightbulb → open drawer → push pink block left | `success_sequence_0000.mp4` |
-| 16 | lift red block from slider → place in drawer → move slider left → turn on LED → close drawer | `success_sequence_0016.mp4` |
-| 17 | push red block left → turn on lightbulb → open drawer → lift blue block from table → place in drawer | `success_sequence_0017.mp4` |
-| 20 | lift red block from slider → place in drawer → turn on LED → move slider right → lift red block from drawer | `success_sequence_0020.mp4` |
+| Sequence index | Tasks | Fine-tuned success | Original failure |
+|---:|---|---|---|
+| 0 | lift blue block from slider → place in slider → turn on lightbulb → open drawer → push pink block left | [MP4](videos/success_sequence_0000.mp4) | [MP4](videos/original_failures_100/rejected/sequence_0000_attempt_01_0of5.mp4) |
+| 16 | lift red block from slider → place in drawer → move slider left → turn on LED → close drawer | [MP4](videos/success_sequence_0016.mp4) | [MP4](videos/original_failures_100/rejected/sequence_0016_attempt_01_0of5.mp4) |
+| 17 | push red block left → turn on lightbulb → open drawer → lift blue block from table → place in drawer | [MP4](videos/success_sequence_0017.mp4) | [MP4](videos/original_failures_100/rejected/sequence_0017_attempt_01_0of5.mp4) |
+| 20 | lift red block from slider → place in drawer → turn on LED → move slider right → lift red block from drawer | [MP4](videos/success_sequence_0020.mp4) | [MP4](videos/original_failures_100/rejected/sequence_0020_attempt_01_0of5.mp4) |
 
-The source JSON and Markdown reports are included alongside this directory in
-the repository's `outputs/`-independent artifact package:
+The paired original-model failures are under
+`videos/original_failures_100/rejected/`. These videos use the same 100-sequence
+generation protocol and the same sequence indices as the four showcase success
+videos.
+
+The source JSON and Markdown reports are included in this directory:
 
 - `comparison_finetuned_vs_pi05_libero_500.json`
 - `comparison_finetuned_vs_pi05_libero_500.md`

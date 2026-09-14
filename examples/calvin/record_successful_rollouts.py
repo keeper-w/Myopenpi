@@ -1,4 +1,4 @@
-"""Replay successful CALVIN sequences and save verified MP4 visualizations."""
+"""Replay selected CALVIN sequences and save verified MP4 visualizations."""
 
 import argparse
 import json
@@ -32,6 +32,12 @@ def parse_args():
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", default=8000, type=int)
     parser.add_argument("--min-completed", default=5, type=int)
+    parser.add_argument(
+        "--max-completed",
+        default=None,
+        type=int,
+        help="When selecting automatically, keep only sequences with at most this many completed tasks.",
+    )
     parser.add_argument("--limit", default=5, type=int)
     parser.add_argument(
         "--sequence-indices",
@@ -74,15 +80,22 @@ def load_candidates(args):
             raise ValueError("Comparison and fine-tuned report use different sequence counts")
         indices = [int(value) for value in comparison["finetuned_only_full_success_indices"]]
     else:
-        indices = [index for index, value in enumerate(completed) if value >= args.min_completed]
+        indices = [
+            index
+            for index, value in enumerate(completed)
+            if value >= args.min_completed
+            and (args.max_completed is None or value <= args.max_completed)
+        ]
     if args.limit > 0:
         indices = indices[: args.limit]
     if not indices:
-        raise ValueError("No sequence matches --min-completed=%d" % args.min_completed)
+        raise ValueError("No sequence matches the requested completed-task range")
     for index in indices:
         if not 0 <= index < num_sequences:
             raise IndexError("Sequence index %d is outside [0, %d)" % (index, num_sequences))
-        if completed[index] < args.min_completed:
+        if completed[index] < args.min_completed or (
+            args.max_completed is not None and completed[index] > args.max_completed
+        ):
             raise ValueError(
                 "Selected sequence %d completed only %d tasks in the fine-tuned report"
                 % (index, completed[index])
@@ -264,6 +277,7 @@ def main(args):
         "source_comparison": str(Path(args.comparison).resolve()) if args.comparison else None,
         "source_num_sequences": int(report["num_sequences"]),
         "selection_min_completed": args.min_completed,
+        "selection_max_completed": args.max_completed,
         "replan_steps": replan_steps,
         "videos": [],
     }

@@ -17,6 +17,10 @@ third_party/calvin/**/*.egg-info/
 # Local exploratory scripts, not part of the reproducible CALVIN integration.
 mytest/
 
+# Keep the 500-sequence baseline replays local; the curated GitHub showcase uses
+# the task-aligned 100-sequence pair under artifacts/.../original_failures_100/.
+artifacts/calvin_d_500/videos/original_failures/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

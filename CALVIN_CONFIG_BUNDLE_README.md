@@ -168,6 +168,7 @@ examples/calvin/run_calvin_full_eval.sh
 examples/calvin/run_calvin_policy_server.sh
 examples/calvin/run_calvin_pi05_libero_500.sh
 examples/calvin/run_calvin_record_successes.sh
+examples/calvin/run_calvin_record_original_failures.sh
 examples/calvin/run_calvin_training.sh
 examples/calvin/run_pi05_libero_calvin_policy_server.sh
 examples/calvin/run_pi05_libero_policy_server.sh

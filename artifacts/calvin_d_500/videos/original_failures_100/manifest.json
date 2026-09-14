@@ -1,0 +1,70 @@
+{
+  "source_results": "/home/dell/wzm/openpi/outputs/calvin_eval/pi05_libero/results_original_100.json",
+  "source_comparison": null,
+  "source_num_sequences": 100,
+  "selection_min_completed": 0,
+  "selection_max_completed": 5,
+  "replan_steps": 5,
+  "videos": [
+    {
+      "sequence_index": 0,
+      "attempt": 1,
+      "original_completed": 0,
+      "replay_completed": 0,
+      "verified_full_success": false,
+      "tasks": [
+        {
+          "task": "lift_blue_block_slider",
+          "prompt": "lift the blue block from the sliding cabinet",
+          "success": false
+        }
+      ],
+      "video": "/home/dell/wzm/openpi/artifacts/calvin_d_500/videos/original_failures_100/rejected/sequence_0000_attempt_01_0of5.mp4"
+    },
+    {
+      "sequence_index": 16,
+      "attempt": 1,
+      "original_completed": 0,
+      "replay_completed": 0,
+      "verified_full_success": false,
+      "tasks": [
+        {
+          "task": "lift_red_block_slider",
+          "prompt": "lift the red block from the sliding cabinet",
+          "success": false
+        }
+      ],
+      "video": "/home/dell/wzm/openpi/artifacts/calvin_d_500/videos/original_failures_100/rejected/sequence_0016_attempt_01_0of5.mp4"
+    },
+    {
+      "sequence_index": 17,
+      "attempt": 1,
+      "original_completed": 0,
+      "replay_completed": 0,
+      "verified_full_success": false,
+      "tasks": [
+        {
+          "task": "push_red_block_left",
+          "prompt": "go push the red block left",
+          "success": false
+        }
+      ],
+      "video": "/home/dell/wzm/openpi/artifacts/calvin_d_500/videos/original_failures_100/rejected/sequence_0017_attempt_01_0of5.mp4"
+    },
+    {
+      "sequence_index": 20,
+      "attempt": 1,
+      "original_completed": 0,
+      "replay_completed": 0,
+      "verified_full_success": false,
+      "tasks": [
+        {
+          "task": "lift_red_block_slider",
+          "prompt": "lift the red block from the sliding cabinet",
+          "success": false
+        }
+      ],
+      "video": "/home/dell/wzm/openpi/artifacts/calvin_d_500/videos/original_failures_100/rejected/sequence_0020_attempt_01_0of5.mp4"
+    }
+  ]
+}
